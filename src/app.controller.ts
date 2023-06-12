@@ -24,4 +24,8 @@ export class AppController {
   startProvision(): string {
     return this.appService.getHello();
   }
+  @Post('/register')
+  register(): string {
+    return this.appService.getHello();
+  }
 }
