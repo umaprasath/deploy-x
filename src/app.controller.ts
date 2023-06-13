@@ -28,4 +28,9 @@ export class AppController {
   register(): string {
     return this.appService.getHello();
   }
+
+  @Post('/onboard')
+  onboard(): string {
+    return this.appService.getHello();
+  }
 }
